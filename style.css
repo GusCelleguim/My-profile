@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url(/img/tema.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.gustavo{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+
+}
+
+.links{
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+a{
+    margin: 5px 0px;
+    background: rgba(255, 255, 255, 0.52);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 151px;
+    height: 22px;
+    font-family: "Squada One", cursive;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 466px;
+}
+
+a:hover{
+    background:rgba(255, 255, 255, 0.836);
+}
+                            
